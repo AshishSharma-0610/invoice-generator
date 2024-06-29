@@ -1,0 +1,64 @@
+.invoice-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+}
+
+.invoice-form h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.invoice-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
+.invoice-form .reverse-charge-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.invoice-form .reverse-charge-checkbox input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+    flex-shrink: 0;
+
+}
+
+.invoice-form .reverse-charge-checkbox label {
+    font-size: 16px;
+    cursor: pointer;
+    flex-grow: 1;
+
+}
+
+.item-inputs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.item-inputs input {
+    flex: 1;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
